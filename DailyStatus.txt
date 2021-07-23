@@ -1,0 +1,252 @@
+NOTES:
+Student Interviews:
+1. need to look for why is the term unassigned?
+2. 
+
+DSM:
+05/07/2021:
+. Gone through enrollment interviews video and followed/reproduced the same navigation in Salesforce to understand the flow.
+. Going through Process Fidelity model.
+. Sent mail to John regarding Salesforce overview.
+. Raised ticket to IT team for Duo Mobile connectivity issues.
+
+Accomplished:
+1. Can able to run dbt model and create objects in my instance.
+ 
+In progress with expected completion date:
+. Going through enrollment process and following/reproducing the same navigation in Salesforce to understand the flow by going thru our daily connect video.  -- 11/07
+. Going through Process Fidelity model.  -- 18/07
+. Sent mail to John regarding Salesforce overview
+. Raised ticket to IT team for Duo Mobile connectivity issues.
+Upcoming tasks:
+1. Salesforce overview
+
+Any Roadblocks or issues:
+None.
+
+06/07/2021:
+Accomplished:
+1. Resolved Duo Mobile connectivity issue on our own.
+2. Had internal Tableau session.
+ 
+In progress with expected completion date:
+. Working on enrollment process.  -- 11/07
+. Going through Process Fidelity model.  -- 18/07
+. Received request from user on SQL internship
+ 
+Upcoming tasks:
+1. Meeting with user to understand Tableau issue(Downloading data from PR dashboard)
+
+Any Roadblocks or issues:
+None.
+
+07/07/2021:
+Accomplished:
+1. Meeting with users to understand Tableau data download issue.
+ 
+In progress with expected completion date:
+. Working on Tableau dashboard data download 
+. Working on user permission access to data source.
+. Working on enrollment process.  -- 11/07
+. Going through Process Fidelity model.  -- 18/07
+ 
+Upcoming tasks:
+None.
+
+Any Roadblocks or issues:
+None.
+
+08/07/2021:
+Accomplished:
+. Modified Tableau Workbook for Broken dashboard and communicated the changes to users.  Users verified as working correct.
+. Modified the dashboard and recreated the users/given permissions for data download. Users verified as working correct.
+ 
+In progress with expected completion date:
+. Working on enrollment process.  -- 11/07
+. Going through Process Fidelity model.  -- 18/07
+ 
+Upcoming tasks:
+None.
+
+Any Roadblocks or issues:
+None.
+
+09/07/2021:
+Accomplished:
+. Modified the metric enrollment query and build the model.
+. Worked internally on understanding the model for Fidelity dashboard.
+ 
+In progress with expected completion date:
+. Working on enrollment process.  -- 11/07
+. Going through Process Fidelity model.  -- 18/07
+ 
+Upcoming tasks:
+Need to work on Salesforce UI to validate the results for metric enrollment.
+
+Any Roadblocks or issues:
+None.
+
+13/07/2021:
+Accomplished:
+. Worked on Sql internship(BISNOW-1667) and added requested fields to the query.
+. Analysed the impact of updating firing reasons on Salesforce UI w.r.t BI dashboard and updated/reassigned to QA.
+ 
+In progress with expected completion date:
+. Working on Tableau dashboard for adhoc request(adding spaces to ProgramSurvey Dashboard) -- 14/07
+. Working on enrollment process.  -- 11/07 
+. Working on Process Fidelity Model -- 18/07
+. Working on the Employment Demand dashboard access issue in Tableau Server
+. Working on understanding the business through Salesforce UI
+ 
+Upcoming tasks:
+Need to work on Salesforce UI to validate the results for metric enrollment.
+
+Any Roadblocks or issues:
+. Need Salesforce refresher course.
+. Need more KT on understanding domain.
+
+14/07/2021:
+Accomplished:
+. Modified Sql internship(BISNOW-1667) query as per the Schema access.
+. Completed the changes and published the changes to ProgramSurvey dashboard.
+. Reviewed the changes of Base_contact_schedule_item_branch git branch(Enrollment Process).
+. Fixed Data source issues for Employment Demand Dashboard.
+. Analysed the data in Salesforce UI for enrollment with Salesforce inspector 
+ 
+In progress with expected completion date:
+. Working on Process Fidelity Model -- 18/07.  Working on writing query/tables for converstion rates
+. Started working on preparing ER diagram.  Will start with one Table(fct_students)
+ 
+Upcoming tasks:
+Need to work on Salesforce UI to validate the results for metric enrollment.
+
+Any Roadblocks or issues:
+. Need Salesforce refresher course.
+. Need more KT on understanding domain.
+
+15/07/2021:
+Accomplished:
+. Prepared draft version of ER diagram for FCT_STUDENT_INTERVIEWS model.
+. Added users of Grads of Life to GOL Tableau folder.
+ 
+In progress with expected completion date:
+. Working on preparing ER diagrams for Enrollment process(Total 10 models)
+. BISNOW-1666: Analysing and preparing mapping of objects from RAW (Transfer of fields to Transformed DB).
+. Need to add few more users to GOL Tableau folder after confirmation of Tableau access for users
+. Need to work on adhoc task(STS Engagements Dashboards)
+ 
+Upcoming tasks:
+--
+
+Any Roadblocks or issues:
+. Need Salesforce refresher course.
+. Need more KT on understanding domain.
+
+16/07/
+Tasks:
+1. add dimensions/fields to Metric enrollment ER diagram
+2. create mapping document(SOURCE||TARGET||SCRIPT), make the changes to /models/staging/salesforce/base/respective tables
+3. create Access control file for Snowflake
+
+1. Work on Jeremiah's 
+2. additional field 
+3. go through Matillion videos https://yearup.app.box.com/folder/134113616308
+4. 
+
+19/07/2021:
+Accomplished:
+. Created Mapping document for creating required columns into Transformed Database(BISNOW-1666)
+. BISNOW-1666: Made code changes to all the affected models. 
+. Created a draft version for Access Control file for Snowflake.
+ 
+In progress with expected completion date:
+. BISNOW-1666: Need to test and push for code merge in GIT.
+. Need to create Access Control files for Tableau,Fivetran, SQL SERVER
+. Working on adhoc requests.
+ 
+Upcoming tasks:
+. Matillion jobs are failing in prod.  Need to go through videos shared by Anita to understand execution of Matillion Jobs.  
+. KT session with Salesforce team.
+
+Any Roadblocks or issues:
+. Need Salesforce refresher course.
+. Need more KT on understanding domain
+. No troubleshooting guide to fix Matillion/Survey Monkey job failure.
+
+20/07/2021:
+Accomplished:
+. BISNOW-1666: Ran dbt test to the code changes Made code changes to all the affected models. 
+. Created banners to 5 Tableau dashboard.
+. Had a session on Salesforce overview.  Will have one more session when required w.r.t to SQL/report generation.
+. Created Jira tickets for failed prod dbt run,failed Survery Monkey since 15July, Figuring out the answers to Anh Nguyen,
+Tableau dashboard banner, Add user to GOL_External_Consultants (Tableau dashboard), Request for field: Regional Director of CE at Account Level, and  LA in salesforce.
+ 
+In progress with expected completion date:
+. BISNOW-1666: Review the changes with Anita and push to git.
+. Need to create Access Control files for Tableau,Fivetran, SQL SERVER
+. Working on adhoc requests.
+ 
+Upcoming tasks:
+. Matillion jobs are failing in prod.  Need to go through videos shared by Anita to understand execution of Matillion Jobs.
+
+Any Roadblocks or issues:
+. Need Salesforce refresher course.
+. Need more KT on understanding domain
+. No troubleshooting guide to fix Matillion/Survey Monkey job failure.
+
+21/07/2021:
+Accomplished:
+. Worked with user(Daniela) and resolved issue with queries in creating a report.
+. BISNOW-1666: Created pull request.
+. Removed banners in 5 Tableau dashboard as per user request.
+ 
+In progress with expected completion date:
+. BISNOW-1666: Created pull request and after approval merge the code to production.
+. working on adding additional fields to Transformed DB(BISNOW-1675)
+. Working on Update Firing Reasons in Contract Manager - Changes in BI(BISNOW-1669).
+. Working on Fidelity process modeling.
+ 
+Upcoming tasks:
+NA
+
+Any Roadblocks or issues:
+. Need more KT on understanding domain
+. No troubleshooting guide to fix Matillion/Survey Monkey job failure.
+
+22/07/2021:
+Accomplished:
+. Worked with user(Daniela) and resolved issue with queries in creating a report.
+. BISNOW-1666: Created pull request.
+. Removed banners in 5 Tableau dashboard as per user request.
+ 
+In progress with expected completion date:
+. BISNOW-1666: Created pull request and after approval merge the code to production.
+. working on adding additional fields to Transformed DB(BISNOW-1675)
+. Working on Update Firing Reasons in Contract Manager - Changes in BI(BISNOW-1669).
+. Working on Fidelity process modeling.
+ 
+Upcoming tasks:
+NA
+
+Any Roadblocks or issues:
+. Need more KT on understanding domain
+. No troubleshooting guide to fix Matillion/Survey Monkey job failure.
+
+Mapping:
+-------
+From Core Salesforce:
+Source: raw.salesforce.lead or raw.salesforce.contact
+Fields Requested: Online Campaign, Online Source, Online Medium
+Target: TRANSFORMED.ENROLLMENT.snap_applicant_pipeline
+Script:models/mart/enrollment/snap_applicant_pipeline.sql(From where should I refer fields from?.. lead or contact?)
+
+From TargetX Salesforce:
+Source: transformed.snapshots.target_x_srmb_inquiry_c_snapshot
+Fields Requested: Online Campaign, Online Source, Online Medium
+Target: TRANSFORMED.BASE_TX.INQUIRIES_TX
+Script: models/staging/targetx/base/base_inquiries_tx.sql
+
+
+Anita, I was going through https://yearup.atlassian.net/browse/SFQ-394 (Regional Director of CE at Account Level).  my understanding is that we need to add Regional_Director_of_CE__c in models/staging/salesforce/base/base_accounts.sql file.
+
+hourly_wage_c
