@@ -248,5 +248,3 @@ Script: models/staging/targetx/base/base_inquiries_tx.sql
 
 
 Anita, I was going through https://yearup.atlassian.net/browse/SFQ-394 (Regional Director of CE at Account Level).  my understanding is that we need to add Regional_Director_of_CE__c in models/staging/salesforce/base/base_accounts.sql file.
-
-hourly_wage_c
